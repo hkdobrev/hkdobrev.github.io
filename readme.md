@@ -8,4 +8,5 @@
 ## License
 
 MIT © [Haralan Dobrev](http://hkdobrev.com)
+
 MIT © [Sindre Sorhus](http://sindresorhus.com)
