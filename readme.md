@@ -1,6 +1,6 @@
 # [Hi](http://hkdobrev.com/)
 
-> Just a simple contact page.
+> My simple and personal website.
 
 [![](screenshot-haralan-dobrev-hi.png)](http://hkdobrev.com/)
 
