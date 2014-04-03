@@ -1,8 +1,8 @@
-# [Hi](http://hkdobrev.com/hi)
+# [Hi](http://hkdobrev.com/)
 
 > Just a simple contact page.
 
-[![](screenshot-haralan-dobrev-hi.png)](http://hkdobrev.com/hi)
+[![](screenshot-haralan-dobrev-hi.png)](http://hkdobrev.com/)
 
 
 ## License
