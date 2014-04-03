@@ -2,7 +2,7 @@
 
 > Just a simple contact page.
 
-[![](screenshot.png)](http://hkdobrev.com/hi)
+[![](screenshot-haralan-dobrev-hi.png)](http://hkdobrev.com/hi)
 
 
 ## License
