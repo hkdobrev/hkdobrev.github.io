@@ -1,94 +1,94 @@
 .animated {
-	-webkit-animation-duration: 1s;
-	animation-duration: 1s;
-	-webkit-animation-fill-mode: both;
-	animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 
 .animated.hinge {
-	-webkit-animation-duration: 2s;
-	animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
 }
 
 @-webkit-keyframes tada {
-	0% {
-		-webkit-transform: scale(1);
-	}
+    0% {
+        -webkit-transform: scale(1);
+    }
 
-	10%, 20% {
-		-webkit-transform: scale(0.9) rotate(-3deg);
-	}
+    10%, 20% {
+        -webkit-transform: scale(0.9) rotate(-3deg);
+    }
 
-	30%, 50%, 70%, 90% {
-		-webkit-transform: scale(1.1) rotate(3deg);
-	}
+    30%, 50%, 70%, 90% {
+        -webkit-transform: scale(1.1) rotate(3deg);
+    }
 
-	40%, 60%, 80% {
-		-webkit-transform: scale(1.1) rotate(-3deg);
-	}
+    40%, 60%, 80% {
+        -webkit-transform: scale(1.1) rotate(-3deg);
+    }
 
-	100% {
-		-webkit-transform: scale(1) rotate(0);
-	}
+    100% {
+        -webkit-transform: scale(1) rotate(0);
+    }
 }
 
 @keyframes tada {
-	0% {
-		-webkit-transform: scale(1);
-		-ms-transform: scale(1);
-		transform: scale(1);
-	}
+    0% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
 
-	10%, 20% {
-		-webkit-transform: scale(0.9) rotate(-3deg);
-		-ms-transform: scale(0.9) rotate(-3deg);
-		transform: scale(0.9) rotate(-3deg);
-	}
+    10%, 20% {
+        -webkit-transform: scale(0.9) rotate(-3deg);
+        -ms-transform: scale(0.9) rotate(-3deg);
+        transform: scale(0.9) rotate(-3deg);
+    }
 
-	30%, 50%, 70%, 90% {
-		-webkit-transform: scale(1.1) rotate(3deg);
-		-ms-transform: scale(1.1) rotate(3deg);
-		transform: scale(1.1) rotate(3deg);
-	}
+    30%, 50%, 70%, 90% {
+        -webkit-transform: scale(1.1) rotate(3deg);
+        -ms-transform: scale(1.1) rotate(3deg);
+        transform: scale(1.1) rotate(3deg);
+    }
 
-	40%, 60%, 80% {
-		-webkit-transform: scale(1.1) rotate(-3deg);
-		-ms-transform: scale(1.1) rotate(-3deg);
-		transform: scale(1.1) rotate(-3deg);
-	}
+    40%, 60%, 80% {
+        -webkit-transform: scale(1.1) rotate(-3deg);
+        -ms-transform: scale(1.1) rotate(-3deg);
+        transform: scale(1.1) rotate(-3deg);
+    }
 
-	100% {
-		-webkit-transform: scale(1) rotate(0);
-		-ms-transform: scale(1) rotate(0);
-		transform: scale(1) rotate(0);
-	}
+    100% {
+        -webkit-transform: scale(1) rotate(0);
+        -ms-transform: scale(1) rotate(0);
+        transform: scale(1) rotate(0);
+    }
 }
 
 .tada {
-	-webkit-animation-name: tada;
-	animation-name: tada;
+    -webkit-animation-name: tada;
+    animation-name: tada;
 }
 
 @-webkit-keyframes pulse {
-	0% {
-		box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
-	}
+    0% {
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+    }
 
-	50% {
-		box-shadow: 0 0 40px rgba(255, 255, 255, 0.3);
-	}
+    50% {
+        box-shadow: 0 0 40px rgba(255, 255, 255, 0.3);
+    }
 
-	100% {
-		box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
-	}
+    100% {
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+    }
 }
 
 body {
-	background-color: #151515;
-	color: #fff;
-	font-family: Lato, 'Helvetica Neue';
-	-webkit-font-smoothing: antialiased;
-	-webkit-backface-visibility: hidden;
+    background-color: #151515;
+    color: #fff;
+    font-family: Lato, 'Helvetica Neue';
+    -webkit-font-smoothing: antialiased;
+    -webkit-backface-visibility: hidden;
 }
 
 h1,
@@ -97,134 +97,134 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: inherit;
+    font-family: inherit;
 }
 
 h1 {
-	font-size: 70px;
-	line-height: 1;
-	font-weight: 400;
-	padding-top: 10px;
+    font-size: 70px;
+    line-height: 1;
+    font-weight: 400;
+    padding-top: 10px;
 }
 
 h2 {
-	font-size: 40px;
-	font-weight: 300;
-	text-indent: 2px;
+    font-size: 40px;
+    font-weight: 300;
+    text-indent: 2px;
 }
 
 a {
-	color: #169adb;
+    color: #169adb;
 }
 
 .container {
-	text-align: center;
-	margin-top: 100px;
+    text-align: center;
+    margin-top: 100px;
 }
 
 .about {
-	margin: 40px auto;
-	color: #ECECEC;
-	font-size: 28px;
-	line-height: 1.2;
-	max-width: 660px;
-	font-weight: 300;
+    margin: 40px auto;
+    color: #ECECEC;
+    font-size: 28px;
+    line-height: 1.2;
+    max-width: 660px;
+    font-weight: 300;
 }
 
 .profile {
-	position: relative;
+    position: relative;
 }
 
 .profile .name {
-	font-size: 70px;
-	font-weight: 300;
-	position: absolute;
-	top: 20px;
-	width: 100%;
+    font-size: 70px;
+    font-weight: 300;
+    position: absolute;
+    top: 20px;
+    width: 100%;
 }
 
 .profile .name span {
-	margin: 0 40px;
-	opacity: 0;
-	transition: all 0.6s ease-out;
-	-webkit-transition: all 0.6s ease-out;
+    margin: 0 40px;
+    opacity: 0;
+    transition: all 0.6s ease-out;
+    -webkit-transition: all 0.6s ease-out;
 }
 
 .credit.activate .name span {
-	opacity: 1;
+    opacity: 1;
 }
 
 .credit.activate .name span:first-child {
-	padding-left: 10px;
-	margin-right: 110px;
+    padding-left: 10px;
+    margin-right: 110px;
 }
 
 .credit.activate .name span:last-child {
-	margin-left: 110px;
+    margin-left: 110px;
 }
 
 .profile a {
-	display: inline-block;
-	position: relative;
-	z-index: 1;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
 }
 
 .profile img {
-	margin-right: 3px;
-	border-radius: 150px;
-	display: inline-block;
-	position: relative;
-	z-index: 1;
-	-webkit-animation: pulse 2.2s infinite ease-in-out;
+    margin-right: 3px;
+    border-radius: 150px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    -webkit-animation: pulse 2.2s infinite ease-in-out;
 }
 
 .message {
-	text-align: center;
+    text-align: center;
 }
 
 .links {
-	list-style: none;
-	text-align: center;
-	margin: 35px 0;
-	padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 35px 0;
+    padding: 0;
 }
 
 .links li {
-	display: inline-block;
-	margin: 0 10px;
-	position: relative;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
 }
 
 .links a {
-	font-size: 20px;
+    font-size: 20px;
 }
 
 @media (max-width: 767px) {
-	.profile .name {
-		font-size: 40px;
-		top: 40px;
-	}
+    .profile .name {
+        font-size: 40px;
+        top: 40px;
+    }
 }
 
 @media (max-width: 650px) {
-	.profile .name {
-		position: static;
-		margin-top: 20px;
-	}
+    .profile .name {
+        position: static;
+        margin-top: 20px;
+    }
 
-	.profile .name span {
-		padding: 0 !important;
-		margin: 8px !important;
-		margin-top: 20px;
-	}
+    .profile .name span {
+        padding: 0 !important;
+        margin: 8px !important;
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 480px) {
-	.container {
-		margin-top: 20px;
-	}
+    .container {
+        margin-top: 20px;
+    }
 
-	.about {
-		font-size: 18px;
-	}
+    .about {
+        font-size: 18px;
+    }
 }
