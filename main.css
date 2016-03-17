@@ -32,10 +32,6 @@ body {
     }
 }
 
-.tada {
-    animation: tada 1s both
-}
-
 @keyframes pulse {
     0% {
         box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
@@ -127,6 +123,10 @@ a:hover {
     display: inline-block;
     position: relative;
     z-index: 1;
+}
+
+.profile a:hover {
+    animation: tada 1s both;
 }
 
 .profile img {
