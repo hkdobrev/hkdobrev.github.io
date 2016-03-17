@@ -7,6 +7,6 @@
 
 ## License
 
-MIT © [Haralan Dobrev](http://hkdobrev.com)
+MIT © [Haralan Dobrev](https://hkdobrev.com)
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
