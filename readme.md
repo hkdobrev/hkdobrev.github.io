@@ -1,6 +1,8 @@
-# [Hi](http://hkdobrev.com/)
+# [Hi](http://hkdobrev.com/) 
 
 > My simple and personal website.
+
+[![Build Status](https://travis-ci.org/hkdobrev/hkdobrev.github.io.svg?branch=master)](https://travis-ci.org/hkdobrev/hkdobrev.github.io)
 
 [![](screenshot-haralan-dobrev-hi.png)](http://hkdobrev.com/)
 
