@@ -14,19 +14,15 @@ body {
     0% {
         transform: scale(1);
     }
-
     10%, 20% {
         transform: scale(0.9) rotate(-3deg);
     }
-
     30%, 50%, 70%, 90% {
         transform: scale(1.1) rotate(3deg);
     }
-
     40%, 60%, 80% {
         transform: scale(1.1) rotate(-3deg);
     }
-
     100% {
         transform: scale(1) rotate(0);
     }
@@ -36,11 +32,9 @@ body {
     0% {
         box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
     }
-
     50% {
         box-shadow: 0 0 40px rgba(255, 255, 255, 0.3);
     }
-
     100% {
         box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
     }
