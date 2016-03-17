@@ -3,7 +3,6 @@
 }
 
 body {
-    margin: 0;
     background-color: #151515;
     color: #fff;
     font-size: 14px;
@@ -11,6 +10,8 @@ body {
     font-family: Lato, 'Helvetica Neue';
     -webkit-font-smoothing: antialiased;
     -webkit-backface-visibility: hidden;
+    text-align: center;
+    margin: 100px 0 0;
 }
 
 @keyframes tada {
@@ -84,16 +85,6 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-.container {
-    text-align: center;
-    margin-top: 100px;
-}
-
-.container:before, .container:after {
-    display: table;
-    content: " ";
 }
 
 .about {
@@ -192,7 +183,7 @@ a:hover {
 }
 
 @media (max-width: 480px) {
-    .container {
+    body {
         margin-top: 20px;
     }
 
