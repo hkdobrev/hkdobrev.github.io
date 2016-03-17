@@ -1,4 +1,4 @@
 language: ruby
 cache: bundler
 install: travis_retry bundle install
-script: travis_retry bundle exec htmlproofer .
+script: travis_retry bundle exec htmlproofer --check-favicon --check-html --report-invalid-tags .
