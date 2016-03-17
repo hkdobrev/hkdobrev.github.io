@@ -1,5 +1,7 @@
 sudo: false
 language: ruby
+rvm:
+  - 2.2.0
 cache: bundler
 install: travis_retry bundle install
 script: travis_retry bundle exec htmlproofer --check-favicon --check-html --report-invalid-tags .
