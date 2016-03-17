@@ -9,7 +9,6 @@
         <meta name="author" content="Haralan Dobrev">
         <meta name="description" content="Haralan Dobrev is a web developer, interested in startups, technology and open-source.">
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:100,300,400,700">
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
         <link rel="stylesheet" href="main.css">
     </head>
     <body class="credit">
@@ -26,12 +25,13 @@
                      width="150"
                      height="150"
                      alt="Haralan Dobrev"
-                     itemprop="image">
+                     itemprop="image"
+                     class="pulse">
                 </a>
-                <div class="name" itemprop="name">
+                <h1 class="name" itemprop="name">
                     <span>Haralan</span>
                     <span>Dobrev</span>
-                </div>
+                </h1>
             </div>
             <ul class="links">
                 <li><a class="js-email" href="mailto:hkdobrev at gmail dot com" target="_blank">Email</a></li>
@@ -60,9 +60,9 @@
         function toggleTadaAnimation(event) {
             // Support IE 10,11 without toggle 2nd argument
             if ('mouseover' === event.type) {
-                profile.classList.add('animated', 'tada')
+                profile.classList.add('tada')
             } else {
-                profile.classList.remove('animated', 'tada')
+                profile.classList.remove('tada')
             }
         }
 
