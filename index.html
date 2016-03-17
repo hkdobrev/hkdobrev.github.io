@@ -50,6 +50,11 @@
             </ul>
         </div>
     </body>
+    <script>
+        if (window.location.protocol != 'https:') {
+            window.location.protocol = 'https';
+        }
+    </script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script>
         $('.js-email').attr('href', [
