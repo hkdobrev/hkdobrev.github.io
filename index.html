@@ -39,6 +39,13 @@
         <li><a href="https://github.com/hkdobrev">GitHub</a></li>
     </ul>
     <script>
+        if ('https:' !== window.location.protocol
+            && ('hkdobrev.com' === window.location.hostname
+                || 'hkdobrev.github.io' === window.location.hostname)) {
+            window.location.protocol = 'https';
+        }
+    </script>
+    <script>
         var email = document.querySelector('.js-email');
         email.href = email.href
             .replace(' at ', '@')
