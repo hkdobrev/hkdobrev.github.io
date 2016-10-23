@@ -4,4 +4,4 @@ rvm:
   - 2.2.0
 cache: bundler
 install: travis_retry bundle install
-script: travis_retry bundle exec htmlproofer --check-favicon --check-html --report-invalid-tags .
+script: travis_retry bundle exec htmlproofer --check-favicon --check-html --directory-index-file --check-opengraph --assume-extension --enforce-https --check-img-http --url-ignore /resume,/php7-slides/,/service-providers-slides .
