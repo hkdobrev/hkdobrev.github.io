@@ -54,7 +54,6 @@ a {
     transition-property: transform, opacity;
     transition-duration: 0.8s;
     transition-timing-function: cubic-bezier(0.68, -0.55, 0.24, 1.92);
-    transition-delay: 0.3s;
     display: inline-block;
 }
 
@@ -228,14 +227,15 @@ nav > ul > li {
     </ul>
 </nav>
 <script>
-(function(window, document){
-    if ('classList' in document.documentElement) {
-        document.querySelector('.name').classList.remove('active')
-        window.setTimeout(function () {
-            document.querySelector('.name').classList.add('active')
-        }, 0)
-    }
-}(window, window.document))
+(function(){
+var cl = 'active', name = window.document.querySelector('.name'), r;
+mutationObserver = new MutationObserver((mutations) => {
+    window.clearTimeout(r);
+    r = window.setTimeout(() => {name.classList.add(cl);}, 850);
+})
+mutationObserver.observe(name, {attributes: true});
+name.classList.remove(cl);
+}())
 </script>
 </body>
 </html>
