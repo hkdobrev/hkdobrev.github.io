@@ -105,14 +105,18 @@ nav > ul > li {
         margin-top: 100px;
     }
 
-    nav > ul > li {
-        display: inline-block;
-        margin: 0 10px;
+    nav > ul {
+        text-align: center;
     }
 
-    header nav > ul > li + li:before {
+    nav > ul > li {
+        display: inline-block;
+        margin: 0;
+    }
+
+    nav > ul > li + li:before {
         content: "•";
-        padding-right: 20px;
+        padding: 0 10px;
     }
 }
 
@@ -120,10 +124,6 @@ nav > ul > li {
     .name {
         top: 40px;
         position: absolute;
-    }
-
-    .name span {
-
     }
 
     .name.active span:first-child {
