@@ -111,6 +111,11 @@ nav > ul > li {
         display: inline-block;
         margin: 0 10px;
     }
+
+    nav > ul > li + li:before {
+        content: "•";
+        padding-right: 20px;
+    }
 }
 
 @media (min-width: 650px) {
@@ -180,7 +185,7 @@ nav > ul > li {
             <a href="/talks">Talks</a>
         </li>
         <li>
-            <a href="https://clippings.github.io">CTO @ Clippings.com</a>
+            <a href="https://clippings.com">Chief Architect @ Clippings</a>
         </li>
     </ul>
 </nav>
