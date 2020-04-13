@@ -207,8 +207,7 @@ nav > ul > li {
     <ul>
         <li>
             <a
-             class="js-email"
-             href="mailto:harry at hkdobrev dot com"
+             href="mailto:harry@hkdobrev.com"
              target="_blank"
              data-proofer-ignore>Email</a>
         </li>
@@ -231,11 +230,6 @@ nav > ul > li {
 </nav>
 <script>
 (function(window, document){
-    var email = document.querySelector('.js-email')
-    email.href = email.href
-        .replace(' at ', '@')
-        .replace(' dot ', '.')
-
     if ('classList' in document.documentElement) {
         document.querySelector('.name').classList.remove('active')
         window.setTimeout(function () {
