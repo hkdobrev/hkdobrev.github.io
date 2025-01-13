@@ -7,147 +7,147 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <style>
 body {
-    font-size: 14px;
-    line-height: 1.428571429;
-    font-family: Helvetica, Arial, sans-serif;
-    text-align: center;
-    margin: 20px 0 0;
+  font-size: 14px;
+  line-height: 1.428571429;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin: 20px 0 0;
 }
 
 h1, h2 {
-    font-family: inherit;
+  font-family: inherit;
 }
 
 h1 {
-    font-size: 70px;
-    line-height: 1;
-    font-weight: 400;
-    margin: 0;
+  font-size: 70px;
+  line-height: 1;
+  font-weight: 400;
+  margin: 0;
 }
 
 h2 {
-    line-height: 1.1;
-    margin: 0 20px 10px;
-    font-size: 40px;
-    font-weight: 300;
-    text-indent: 2px;
+  line-height: 1.1;
+  margin: 0 20px 10px;
+  font-size: 40px;
+  font-weight: 300;
+  text-indent: 2px;
 }
 
 a {
-    color: #1676db;
-    text-decoration: none;
+  color: #1676db;
+  text-decoration: none;
 }
 
 .profile {
-    position: relative;
+  position: relative;
 }
 
 .name {
-    margin-top: 20px;
-    font-size: 40px;
-    font-weight: 300;
-    width: 100%;
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: 300;
+  width: 100%;
 }
 
 .name span {
-    opacity: 0;
-    transition-property: transform, opacity;
-    transition-duration: 0.8s;
-    transition-timing-function: cubic-bezier(0.68, -0.55, 0.24, 1.92);
-    display: inline-block;
+  opacity: 0;
+  transition-property: transform, opacity;
+  transition-duration: 0.8s;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.24, 1.92);
+  display: inline-block;
 }
 
 .name.active span {
-    opacity: 1;
+  opacity: 1;
 }
 
 .name.active span:first-child {
-    transform: translateX(10px);
+  transform: translateX(10px);
 }
 
 .name.active span:last-child {
-    transform: translateX(20px);
+  transform: translateX(20px);
 }
 
 .profile a {
-    display: inline-block;
-    position: relative;
-    z-index: 1;
-    will-change: transform;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  will-change: transform;
 }
 
 .profile img, .pulse, .pulse::after {
-    border-radius: 150px;
+  border-radius: 150px;
 }
 
 .profile img {
-    margin-right: 3px;
-    display: block;
-    position: relative;
-    z-index: 1;
+  margin-right: 3px;
+  display: block;
+  position: relative;
+  z-index: 1;
 }
 
 nav > ul {
-    list-style: none;
-    margin: 35px 0;
-    padding: 0;
+  list-style: none;
+  margin: 35px 0;
+  padding: 0;
 }
 
 nav > ul > li {
-    position: relative;
-    font-size: 20px;
-    display: block;
-    margin: 10px 0;
+  position: relative;
+  font-size: 20px;
+  display: block;
+  margin: 10px 0;
 }
 
 @media (min-width: 560px) {
-    body {
-        margin-top: 100px;
-    }
+  body {
+    margin-top: 100px;
+  }
 
-    nav > ul {
-        text-align: center;
-    }
+  nav > ul {
+    text-align: center;
+  }
 
-    nav > ul > li {
-        display: inline-block;
-        margin: 0;
-    }
+  nav > ul > li {
+    display: inline-block;
+    margin: 0;
+  }
 
-    nav > ul > li + li:before {
-        content: "•";
-        padding: 0 10px;
-    }
+  nav > ul > li + li:before {
+    content: "•";
+    padding: 0 10px;
+  }
 }
 
 @media (min-width: 650px) {
-    .name {
-        top: 25px;
-        position: absolute;
-    }
+  .name {
+    top: 25px;
+    position: absolute;
+  }
 
-    .name.active span:first-child {
-        transform: translateX(-40px);
-    }
+  .name.active span:first-child {
+    transform: translateX(-40px);
+  }
 
-    .name.active span:last-child {
-        transform: translateX(95px);
-    }
+  .name.active span:last-child {
+    transform: translateX(95px);
+  }
 }
 
 @media (min-width: 767px) {
-    .name {
-        font-size: 70px;
-        top: 25px;
-    }
+  .name {
+    font-size: 70px;
+    top: 25px;
+  }
 
-    .name.active span:first-child {
-        transform: translateX(-60px);
-    }
+  .name.active span:first-child {
+    transform: translateX(-60px);
+  }
 
-    .name.active span:last-child {
-        transform: translateX(115px);
-    }
+  .name.active span:last-child {
+    transform: translateX(115px);
+  }
 }
 </style>
 <link rel="stylesheet" href="main.css">
@@ -171,61 +171,61 @@ nav > ul > li {
 </head>
 <body>
 <header>
-    <heading>
-        <h2>
-            Hi
-        </h2>
-    </heading>
-    <nav>
-        <ul>
-            <li>
-              <a href="https://prmetrics.app/" target="_blank" rel="noopener">Founder @ PRMetrics</a>
-            </li>
-        </ul>
-    </nav>
+  <heading>
+    <h2>
+      Hi
+    </h2>
+  </heading>
+  <nav>
+    <ul>
+      <li>
+        <a href="https://prmetrics.app/" target="_blank" rel="noopener">Founder @ PRMetrics</a>
+      </li>
+    </ul>
+  </nav>
 </header>
 <article class="profile" itemscope itemtype="https://schema.org/Person">
-    <a href="https://x.com/hkdobrev">
-        <div class="pulse" style="width: 150px; height: 150px">
-            <img src="https://secure.gravatar.com/avatar/b823b2c0a620c82547e71f84cfa15682.png?s=300"
-             alt="Harry Dobrev"
-             itemprop="image"
-             style="width: 150px; height: 150px">
-        </div>
-    </a>
-    <h1 class="name active" itemprop="name">
-        <span>Harry</span>
-        <span>Dobrev</span>
-    </h1>
+  <a href="https://x.com/hkdobrev">
+    <div class="pulse" style="width: 150px; height: 150px">
+      <img src="https://secure.gravatar.com/avatar/b823b2c0a620c82547e71f84cfa15682.png?s=300"
+       alt="Harry Dobrev"
+       itemprop="image"
+       style="width: 150px; height: 150px">
+    </div>
+  </a>
+  <h1 class="name active" itemprop="name">
+    <span>Harry</span>
+    <span>Dobrev</span>
+  </h1>
 </article>
 <foooter>
-    <nav>
-        <ul>
-            <li>
-                <a href="mailto:harry@hkdobrev.com" target="_blank">Email</a>
-            </li>
-            <li>
-                <a href="/resume" target="_blank">Résumé</a>
-                <a href="https://hkdobrev.com/resume/Harry%20Dobrev.pdf" download="Harry Dobrev.pdf" target="_blank"><small>[PDF]</small></a>
-            </li>
-            <li>
-                <a href="https://x.com/hkdobrev" target="_blank">𝕏</a>
-            </li>
-            <li>
-                <a href="https://github.com/hkdobrev" target="_blank">GitHub</a>
-            </li>
-            <li>
-              <a href="/talks" target="_blank">Talks</a>
-            </li>
-        </ul>
-    </nav>
+  <nav>
+    <ul>
+      <li>
+        <a href="mailto:harry@hkdobrev.com" target="_blank">Email</a>
+      </li>
+      <li>
+        <a href="/resume" target="_blank">Résumé</a>
+        <a href="https://hkdobrev.com/resume/Harry%20Dobrev.pdf" download="Harry Dobrev.pdf" target="_blank"><small>[PDF]</small></a>
+      </li>
+      <li>
+        <a href="https://x.com/hkdobrev" target="_blank">𝕏</a>
+      </li>
+      <li>
+        <a href="https://github.com/hkdobrev" target="_blank">GitHub</a>
+      </li>
+      <li>
+        <a href="/talks" target="_blank">Talks</a>
+      </li>
+    </ul>
+  </nav>
 </foooter>
 <script>
 (function(){
 var cl = 'active', name = window.document.querySelector('.name'), r;
 mutationObserver = new MutationObserver((mutations) => {
-    window.clearTimeout(r);
-    r = window.setTimeout(() => {name.classList.add(cl);}, 850);
+  window.clearTimeout(r);
+  r = window.setTimeout(() => {name.classList.add(cl);}, 850);
 })
 mutationObserver.observe(name, {attributes: true});
 name.classList.remove(cl);
