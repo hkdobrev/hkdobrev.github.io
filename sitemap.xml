@@ -7,12 +7,24 @@
         <loc>https://hkdobrev.com/talks</loc>
     </url>
     <url>
-        <loc>https://hkdobrev.com/resume</loc>
+        <loc>https://hkdobrev.com/resume/</loc>
     </url>
     <url>
-        <loc>https://hkdobrev.com/php7-slides</loc>
+        <loc>https://hkdobrev.com/run-if-changed/</loc>
     </url>
     <url>
-        <loc>https://hkdobrev.com/service-providers-slides</loc>
+        <loc>https://hkdobrev.com/notetaker/</loc>
+    </url>
+    <url>
+        <loc>https://hkdobrev.com/php7-slides/#/</loc>
+    </url>
+    <url>
+        <loc>https://hkdobrev.com/service-providers-slides/#/</loc>
+    </url>
+    <url>
+        <loc>https://hkdobrev.com/open-source-talk/#/</loc>
+    </url>
+    <url>
+        <loc>https://hkdobrev.com/js-git-talk/#/</loc>
     </url>
 </urlset>
